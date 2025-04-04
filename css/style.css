@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+html {
+  height: 100%;
+}
+img {
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.cards {
+  display: flex;
+  width: 920px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card {
+  width: 307px;
+
+  padding: 48px;
+}
+.card__one__img {
+  position: relative;
+  margin-bottom: 75px;
+}
+.card__one__img--one {
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+}
+.card__one__img--two {
+  width: 43px;
+  height: auto;
+  position: absolute;
+  left: 20px; /* Mashinani doira ichida joylash */
+  top: 10px;
+}
+
+.card__one {
+  background: #e28625;
+}
+.card__one__img {
+}
+.card__one__img::before {
+}
+.card__img {
+}
+.crad__title {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.card__dis {
+  color: #fff;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 83px;
+}
+.card__btn {
+  p {
+    color: #e28625;
+  }
+}
+
+.card__btn:hover {
+  background-color: #e28625;
+  border: 2px solid #fff;
+  color: #fff;
+  & p {
+    color: #fff;
+  }
+}
+.card__two__btn {
+  p {
+    color: #006971;
+   
+  }
+  &:hover {
+    background-color: #006971;
+    
+  }
+}
+.card__three__btn {
+  p {
+    color: #004140;
+   
+  }
+  &:hover {
+    background-color: #004140;
+    
+  }
+
+}
+.btn {
+  width: 146px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition:  0.3s ;
+
+  p {
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    transition:  0.3s ;
+  }
+
+  &:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    & p {
+      color: #fff;
+    }
+  }
+}
+.card__two {
+  background-color: #006971;
+}
+.card__three {
+  background-color: #004140;
+}
