@@ -55,17 +55,14 @@ body {
   width: 43px;
   height: auto;
   position: absolute;
-  left: 20px; /* Mashinani doira ichida joylash */
+  left: 20px; 
   top: 10px;
 }
 
 .card__one {
   background: #e28625;
 }
-.card__one__img {
-}
-.card__one__img::before {
-}
+
 .card__img {
 }
 .crad__title {
